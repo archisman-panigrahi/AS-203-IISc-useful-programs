@@ -13,7 +13,7 @@ T_d_Celcius =  8.9408
 
 ## Todo
 
-1. Weight Bulb Temparature
+~~1. Wet Bulb Temparature~~
 2. Add more examples in README
 3. Models for variation of pressure with height
 4. Models for variation of temperature with height

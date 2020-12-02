@@ -9,3 +9,8 @@ epsilon = M_w/M_d;
 
 A = 2.53 * 10^11; %Pa
 B = 5420; %Kelvin
+
+c_v_per_mole = (5/2) * R_star;
+c_p_per_mole = (7/2) * R_star;
+
+L = 2501 * 10^3;

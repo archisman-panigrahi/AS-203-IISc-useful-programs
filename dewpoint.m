@@ -13,7 +13,7 @@ function w = w_from_RelativeHumidity(f, p, T_in_Celcius)
 	w = w_s * f;
 endfunction
 
-function dewPt_from_RelativeHumidity(f, p, T_in_Celcius)
+function T_d = dewPt_from_RelativeHumidity(f, p, T_in_Celcius)
 	w = w_from_RelativeHumidity(f, p, T_in_Celcius)
 	T_d = dewpt(w,p)
 	T_d_Celcius = T_d - 273.15

@@ -1,6 +1,6 @@
 %generalized wet bulb temperature for arbitrary final humidity
 constants;
-function T_ans = generalizedWeightBulb(f_initial, T_initial_degree_C, p, f_final)
+function T_ans = generalizedWetBulb(f_initial, T_initial_degree_C, p, f_final)
 	dewpoint;
 	T_guess = dewPt_from_RelativeHumidity(f_initial, p, T_initial_degree_C)
 	
@@ -26,5 +26,5 @@ function T_ans = generalizedWeightBulb(f_initial, T_initial_degree_C, p, f_final
 endfunction
 
 function T_wb = wetbulb(f_initial, T_initial_degree_C, p)
-	T_wb = generalizedWeightBulb(f_initial, T_initial_degree_C, p, 1);
+	T_wb = generalizedWetBulb(f_initial, T_initial_degree_C, p, 1);
 endfunction

@@ -15,6 +15,8 @@ c_p_per_mole = (7/2) * R_star;
 
 c_v_per_kg = c_v_per_mole/M_d;
 c_p_per_kg = c_p_per_mole/M_d;
-L = 2501 * 10^3;
 
-chi = 2/7;
+L = 2501 * 10^3; %J/kg, near 0 degree C
+
+chi = 0.286; %R/Cp
+eta = 1.4; %Cp/Cv

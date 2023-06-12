@@ -1,4 +1,4 @@
-# Useful Programs for Atmospheric Thermodynamics
+# Useful Programs for Atmospheric Thermodynamics (AS203) course in [IISc](https://iisc.ac.in/)
 ## Examples
 The function `dewPt_from_RelativeHumidity(rel_humidity, pressure_in_Pa, Temp_in_degree_C)` in the script `dewpoint.m`
 calculates dewpoint, given the relative humidity, current temperature and pressure.

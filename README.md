@@ -18,4 +18,8 @@ T_d_Celcius =  8.9408
 3. Models for variation of pressure with height
 4. Models for variation of temperature with height
 
+## Author(s)
+
+- Archisman Panigrahi
+
 ### You are welcome to add more functions and suggest changes in the code.
